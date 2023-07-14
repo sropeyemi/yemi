@@ -1,0 +1,38 @@
+body{
+    background: linear-gradient(to bottom, #00ffff 0%, #169641 100%);
+}
+section{
+    background-color: #962323;
+}
+section h3{
+    color: rgb(66, 43, 15);
+}
+section:hover h3{
+    color: blue;
+}
+div p{
+    background-color: #169641;
+    transition: font-size 0.5s ease-in-out;
+}
+div:hover{
+    background-color:brown;
+     font-size: 24px;
+}
+article p{
+    background-color: orange;
+    transition: font-size o.6s ease-in;
+}
+article:hover{
+    background: #f0f0f0;
+    font-size: 24px;
+}
+.container{
+    width: 50%;
+    margin:0 auto;
+    background-image: url("https://images.pexels.com/photos/17037103/pexels-photo-17037103/free-photo-of-fashion-people-woman-photography.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load");
+    text-align: center;
+}
+.container h1{
+    text-decoration: underline;
+}
+
