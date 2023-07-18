@@ -1,0 +1,32 @@
+.container{
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ padding: 20px;
+ background-color: blue;
+}
+.b{
+    height: 70px;
+}
+p{
+    margin: 10px;
+    font-size: 90px;
+    color: brown;
+}
+li{
+    margin: 10px;
+    font-size: 90px;
+    color: brown
+}
+a{
+    margin: 10px;
+    font-size: 90px;
+    color: rgb(30, 78, 41)
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    
+}
