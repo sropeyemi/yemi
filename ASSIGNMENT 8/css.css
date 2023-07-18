@@ -1,0 +1,68 @@
+body{
+    background-color: white;
+    
+}
+img{
+    margin-bottom: 20px;
+    transition: 2s;
+}
+    .img1:hover{
+        transform: rotate(40deg);
+    }
+    .img2:hover{
+        transform: scale(0.5);
+    }
+    .img3:hover{
+        transform: translate(50px); 
+    }
+    .contain{
+        width: 80%;
+        margin: auto;
+        padding-bottom: 100px;
+    }
+
+    .fixed{
+        background-color: rgb(16, 187, 53);
+        color: blanchedalmond;
+        border: none;
+        position: fixed; 
+        top: 20px;
+        right: 10px;
+    }
+    .relative{
+        background-color: rgb(189, 148, 15);
+        color: rgb(15, 14, 13);
+        border: none;
+        width: none;
+        position: relative;
+        padding: 30px;
+        margin: 15px;
+        top: 20px;
+        right: 10px;
+    }
+    .absolute{
+        position: absolute;
+        right: 80px;
+        top:80px;
+    }
+.shadow{
+    background-color: bisque;
+    color: black;
+    padding: 30px;
+    margin: 15px;
+    top: 40px;
+    right: 10px;
+    position: relative;
+    border-radius: 20px;
+    box-shadow: 20px 15px 25px blue;
+    text-shadow: 2px 2px 3px;
+    
+}
+.one{
+    border-radius: 20px;
+    background-color: rgb(22, 85, 104);
+    padding: 5px;
+    margin-bottom: 5px;
+    text-align: center;
+    
+}
