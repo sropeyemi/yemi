@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: auto;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(18, 138, 138);
+  
+}
+main{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    height: 80vh;
+    border-radius: 20px;
+    background-color: aqua;
+   
+}
+section{
+    width: 50%;
+    padding: 20px;
+}
+.left{
+    background:linear-gradient(rgba(0,0,0,0),rgba(0,0,0,3)), url("https://images.pexels.com/photos/1787235/pexels-photo-1787235.jpeg?auto=compress&cs=tinysrgb&w=400");
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-position: center;
+ border-top-left-radius: 20px;
+ border-bottom-left-radius: 20px;
+ color: white;
+}
+.top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: bold;
+}
+.top img{
+    filter: invert(1);
+    width: 25px;
+    height: 25px;
+}
+.second{
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
+    padding-top: 10% 0;
+    align-items: center;
+    text-align: center;
+   justify-content: space-between;
+  
+}
+.shoot{
+    font-size: smaller;
+}
+
+
+.third{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   background: white;
+    border-bottom-left-radius: 0;
+   border-top-right-radius: 20px;
+   border-bottom-right-radius: 20px ;
+  
+ }
+ .third h3{
+    width: 50%;
+    color: rgb(7, 133, 133);
+    font-weight: 600;
+    font-size: 30px;
+
+ }
+ .c{
+  
+    font-size:x-small;
+ }
+
+ 
+
+.wrap{
+    
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+ 
+}
+
+form{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+   justify-content: space-between;
+    margin-top: 30px;
+    gap: 30px;
+    padding-bottom: 120px;
+}
+.input{
+    display: flex;
+    justify-content: space-between;
+align-items: center;
+}
+label{
+    font-weight: bold;
+    font-size: 0.8rem;
+}
+
+input{
+    width: 70% 10%;
+    border: none;
+    border-radius: 5px;
+    background-color: beige;
+padding: 9px;
+}
+.gender{
+    width: 70%;
+  display: flex;
+  justify-content: flex-start;
+  gap: 40px;
+}
+.rad{
+    display: flex;
+    gap: 10px;
+}
+.sub{
+    width: 70%;
+    display: flex;
+   
+    justify-content: space-around;
+}
+.buttons{
+   display:flex;
+   justify-content: center;
+   justify-content: flex-end;
+   gap: 5px;
+   margin-top: 5px;
+}
+button{
+   width: 110px;
+    padding: 10px;
+color: white;
+    border-radius: 2px;
+    border: none;
+   
+}
+.cancel{
+    background: purple;
+}
+.confirm{
+    background:rgb(18, 138, 138);
+}
